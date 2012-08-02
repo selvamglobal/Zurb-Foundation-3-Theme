@@ -23,15 +23,10 @@
 			<positions>
 				<position name="main" />
 				<position name="left" />
-				<position name="top">
-					<defaults>
-						<widget module="search" action="form" />
-					</defaults>
-				</position>
-				<position name="advertisement" />
+				
 			</positions>
 			<format>
-				[/,advertisement,advertisement,advertisement],[/,/,top,top],[/,/,/,/],[left,main,main,main]
+				[left,main,main,main]
 			</format>
 		</template>
 		<template label="Home" path="core/layout/templates/home.tpl">
@@ -39,15 +34,9 @@
 				<position name="main" />
 				<position name="left" />
 				<position name="right" />
-				<position name="top">
-					<defaults>
-						<widget module="search" action="form" />
-					</defaults>
-				</position>
-				<position name="advertisement" />
 			</positions>
 			<format>
-				[/,advertisement,advertisement,advertisement],[/,/,top,top],[/,/,/,/],[main,main,main,main],[left,left,right,right]
+				[main,main,main,main],[left,left,right,right]
 			</format>
 		</template>
 	</templates>
