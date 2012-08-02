@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<name>Zurb-Foundation-3</name>
+	<version>1.0.0</version>
+	<requirements>
+		<minimum_version>3.0.0</minimum_version>
+	</requirements>
+	<thumbnail>thumbnail.png</thumbnail>
+	<description>
+		<![CDATA[
+			Foundation 3 is built on ZURB's 14 years of experience at building sites and apps for the Web. We believe designing responsively — designing for all devices and any device — is the future. Foundation is our way of helping you do that. What changed in Foundation 3? Almost everything. Here's what makes Foundation, Foundation.
+		]]>
+	</description>
+	<authors>
+		<author>
+			<name>Frederik Heyninck</name>
+			<url>http://www.figure8.be</url>
+		</author>
+	</authors>
+	<metanavigation supported="false" />
+	<templates>
+		<template label="Default" path="core/layout/templates/default.tpl">
+			<positions>
+				<position name="main" />
+				<position name="left" />
+				<position name="top">
+					<defaults>
+						<widget module="search" action="form" />
+					</defaults>
+				</position>
+				<position name="advertisement" />
+			</positions>
+			<format>
+				[/,advertisement,advertisement,advertisement],[/,/,top,top],[/,/,/,/],[left,main,main,main]
+			</format>
+		</template>
+		<template label="Home" path="core/layout/templates/home.tpl">
+			<positions>
+				<position name="main" />
+				<position name="left" />
+				<position name="right" />
+				<position name="top">
+					<defaults>
+						<widget module="search" action="form" />
+					</defaults>
+				</position>
+				<position name="advertisement" />
+			</positions>
+			<format>
+				[/,advertisement,advertisement,advertisement],[/,/,top,top],[/,/,/,/],[main,main,main,main],[left,left,right,right]
+			</format>
+		</template>
+	</templates>
+</theme>
