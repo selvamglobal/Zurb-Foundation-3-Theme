@@ -8,6 +8,7 @@
 				{/option:navigation.children}
 
 				{$navigation.children}
+				
 				{option:navigation.children}
 					</ul>
 				{/option:navigation.children}
